@@ -20,6 +20,8 @@ interface mainState {
   isFavIconClicked: boolean;
 }
 
+const temp = false;
+
 const initialState: mainState = {
   homePageMovies: [],
   selectedMovie: 0,
